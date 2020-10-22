@@ -1,0 +1,7 @@
+{
+    "hosting": {
+        "public": "out",
+        "site": "lp-woman-2020-prod",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+}

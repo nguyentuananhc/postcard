@@ -1,0 +1,25 @@
+.footer-wrapper {
+    .nav-dots {
+        width: 100%;
+        bottom: 46px;
+        height: 11px;
+        display: block;
+        position: absolute;
+        text-align: center;
+
+        .nav-dot {
+            top: -5px;
+            width: 8px;
+            height: 8px;
+            margin: 0 4px;
+            position: relative;
+            border-radius: 100%;
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .active {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

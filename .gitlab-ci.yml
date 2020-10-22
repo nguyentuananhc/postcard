@@ -1,0 +1,28 @@
+image: node:12.13.0-alpine
+
+stages:
+    - build and deploy
+before_script:
+    - npm install -g firebase-tools
+deploy nonprod:
+    stage: build and deploy
+    tags:
+        - merchant-sandbox
+    only:
+        - /^v.*-uat$/
+    variables:
+        EXAMPLE_VAR: '3306'
+    script:
+        - npm install
+        - npm run deploy-test
+deploy prod:
+    stage: build and deploy
+    tags:
+        - merchant-sandbox
+    only:
+        - /^v.*-prod$/
+    variables:
+        EXAMPLE_VAR: '3306'
+    script:
+        - npm install
+        - npm run deploy

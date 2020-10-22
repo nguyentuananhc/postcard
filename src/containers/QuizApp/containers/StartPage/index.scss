@@ -1,0 +1,45 @@
+.start-page-wrapper {
+    position: relative;
+    padding-top: 100px;
+    background-image: url('/static/img/NRQuiz/pattern.jpg');
+
+    .img-welcome {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .subline {
+        position: absolute;
+        width: calc(100% - 32px);
+        bottom: 120px;
+        z-index: 3;
+    }
+
+    .loading-title {
+        position: absolute;
+        width: calc(100% - 32px);
+        bottom: 18px;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+
+        .loading-icon {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}

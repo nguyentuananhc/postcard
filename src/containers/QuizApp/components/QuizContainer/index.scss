@@ -1,0 +1,19 @@
+.quiz-container-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('/static/img/NRQuiz/pattern.jpg');
+
+    padding: 140px 16px 0px 16px;
+}
+
+.quiz-container-wrapper-small {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('/static/img/NRQuiz/pattern.jpg');
+
+    padding: 90px 16px 0px 16px;
+}

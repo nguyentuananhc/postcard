@@ -1,0 +1,12 @@
+{
+    "hosting": {
+      "public": "out",
+      "site":"lp-woman-2020-np",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
+  

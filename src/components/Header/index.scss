@@ -1,0 +1,48 @@
+.header-wrapper {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 0; // padding: 20px 16px 0 16px;
+    z-index: 10;
+    width: 100%;
+   
+    padding: 0 16px;
+
+    .button {
+        font-size: 14px;
+        color: #ffffff;
+        background: rgba(1, 18, 34, 0.3);
+
+        &-share {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            padding: 0 12px;
+            width: fit-content;
+        }
+        &-close,
+        &-back {
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-image {
+            width: 80%;
+            height: 80%;
+        }
+    }
+}
+
+.header-margin-large {
+    margin-top: 50px;
+}
+
+.header-margin-small {
+    margin-top: 34px;
+}
