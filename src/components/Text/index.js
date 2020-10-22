@@ -16,6 +16,7 @@ const TextWrapper = (props) => {
         <>
             <Text
                 onClick={onSelect}
+                onTap={onSelect}
                 ref={shapeRef}
                 {...rest}
                 onDragEnd={(e) => {

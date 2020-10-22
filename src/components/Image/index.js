@@ -19,6 +19,7 @@ const ImageWrapper = (props) => {
         <>
             <Image
                 onClick={onSelect}
+                onTap={onSelect}
                 image={img}
                 // I will use offset to set origin to the center of the image
                 offsetX={img ? img.width / 2 : 0}
