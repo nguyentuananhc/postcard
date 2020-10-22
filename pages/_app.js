@@ -3,7 +3,7 @@ import { Provider } from 'react-redux'
 import withRedux from 'next-redux-wrapper'
 
 import Store from 'store'
-import Header from 'components/Header'
+// import Header from 'components/Header'
 
 const MyApp = (props) => {
     const { Component, pageProps, store } = props
